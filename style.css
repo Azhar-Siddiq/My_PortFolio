@@ -1,0 +1,460 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main {
+    width: 100%;
+    margin: 0;
+}
+.main-container {
+    width: 990px;
+    height: 3160px;
+    position: relative;
+    /* background-image: url(./Assets/pf\,bg.png);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-color: #fff;
+    box-shadow: 0px 0px 20px #0A0A0A;
+    margin: 50px auto 50px auto;
+    font-family: sans-serif;
+}
+.banner {
+    width: 990px;
+    height: 350px;
+    position: absolute;
+    background-image: url(./Assets/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-container .banner .navbar {
+    width: 990px;
+    height: 70px;
+    text-align: right;
+    position: absolute;
+    padding: 25px 30px 20px 0px;
+    word-spacing: 30px;
+}
+.main-container .banner .navbar a {
+    text-decoration: none;
+    color: #CAC9C9;
+    text-decoration: underline;
+    font-size: 20px;
+    padding: 50px;
+}
+.main-container .banner .title {
+    width: 990px;
+    height: 280px;
+    position: absolute;
+    margin-top: 70px;
+}
+.main-container .banner .title .left {
+    width: 300px;
+    position: absolute;
+}
+.main-container .banner .title .right {
+    width: 690px;
+    position: absolute;
+    margin-left: 300px;
+}
+.main-container .banner .title .left img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 40px 50px 50px 80px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+.main-container .banner .title .right h1 {
+    color: #B1AFAF;
+    padding-top: 100px;
+}
+.main-container .banner .title .right h1 span {
+    color: #fff;
+    font-size: 50px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+.main-container .banner .title .right p {
+    color: #fff;
+    font-size: 20px;
+    padding: 15px 0px 0px 180px;
+}
+.main-container .banner .title .right p marquee {
+    display: inline;
+}
+.main-container .banner .title .right p span {
+    font-size: 18px;
+}
+.main-container .objective {
+    width: 990px;
+    height: 300px;
+    position: absolute;
+    background-color: #eee;
+    margin-top: 360px;
+}
+.main-container .objective h1 {
+    padding: 20px;
+    color: #000;
+    text-decoration: underline;
+}
+.main-container .objective p {
+    padding: 0px 15px 0px 170px;
+    line-height: 30px;
+    font-weight: bold;
+}
+.main-container .about {
+    width: 990px;
+    height: 500px;
+    margin-top: 670px;
+    position: absolute;
+    box-shadow: inset 0 0 80px #111111;
+    background: linear-gradient(to bottom, #ffffff26 0%, #00000026 100%), radial-gradient(at top center, #ffffff66 0%, #00000066 120%) #989898;
+}
+.main-container .about h2 {
+    text-align: center;
+    margin: 50px auto 0px auto;
+    color: #000;
+}
+.main-container .about p {
+    text-align: center;
+    margin: 10px auto 10px auto;
+    font-weight: bold;
+    color: #000;
+}
+.main-container .about div {
+    width: 350px;
+    height: 300px;
+    padding: 10px;
+    background: linear-gradient(#fff, #808080);
+    box-shadow: 0 0 10px #000;
+    margin: 50px auto 0px auto;
+}
+.main-container .about div p {
+    text-align: left;
+    line-height: 35px;
+}
+.main-container .about div p span {
+    font-weight: bold;
+    color: #000;
+    text-decoration: underline;
+}
+.main-container .heading{
+    width: 990px;
+    height: 100px;
+    box-shadow: inset 0 0 80px #111111;
+    background: linear-gradient(#808080, #000);
+    position: absolute;
+    margin-top: 1180px;
+}
+.main-container .heading h1{
+    color: #fff;
+    text-align: center;
+    line-height: 130px;
+}
+.main-container .projects{
+    width: 990px;
+    height: 990px;
+    background-color: #000;
+    position: absolute;
+    margin-top: 1290px;
+}
+.main-container .projects .box-1{
+    width: 320px;
+    height: 320px;
+    margin: 5px;
+    position: absolute;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+}
+.main-container .projects .box-1 img{
+    width: 319px;
+    height: 220px;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+}
+.main-container .projects .box-1{
+    background-color: #eee;
+}
+.main-container .projects .box-1 p{
+    font-weight: bold;
+    padding: 20px 0px 0px 10px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.main-container .projects .box-2{
+    width: 320px;
+    height: 320px;
+    margin: 5px 5px 5px 335px;
+    position: absolute;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+}
+.main-container .projects .box-2 img{
+    width: 319px;
+    height: 220px;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+}
+.main-container .projects .box-2{
+    background-color: #CEEFFC;
+}
+.main-container .projects .box-2 p{
+    font-weight: bold;
+    color: #0000FF;
+    padding: 20px 0px 0px 10px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.main-container .projects .box-3{
+    width: 320px;
+    height: 320px;
+    margin: 5px 5px 5px 665px;
+    position: absolute;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+}
+.main-container .projects .box-3 img{
+    width: 319px;
+    height: 220px;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+}
+.main-container .projects .box-3{
+    background-color: #D8D8D8;
+}
+.main-container .projects .box-3 p{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #000;
+    padding: 20px 0px 0px 10px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.main-container .projects .box-4{
+    width: 320px;
+    height: 320px;
+    margin: 335px 5px 5px 5px;
+    position: absolute;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+}
+.main-container .projects .box-4 img{
+    width: 319px;
+    height: 220px;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+}
+.main-container .projects .box-4{
+    background-color: #000;
+}
+.main-container .projects .box-4 p{
+    font-weight: bold;
+    color: #fff;
+    padding: 20px 0px 0px 10px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.main-container .projects .box-5{
+    width: 320px;
+    height: 320px;
+    margin: 335px 5px 5px 335px;
+    position: absolute;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+}
+.main-container .projects .box-5 img{
+    width: 319px;
+    height: 220px;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+}
+.main-container .projects .box-5{
+    background-color: #C0FAC0;
+}
+.main-container .projects .box-5 p{
+    font-weight: bold;
+    color: #006400;
+    padding: 20px 0px 0px 10px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.main-container .projects .box-6{
+    width: 320px;
+    height: 320px;
+    margin: 335px 5px 5px 665px;
+    position: absolute;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    border: 1px solid #fff;
+}
+.main-container .projects .box-6 img{
+    width: 319px;
+    height: 220px;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+}
+.main-container .projects .box-6{
+    background-color: #FDEEF0;
+}
+.main-container .projects .box-6 p{
+    font-weight: bold;
+    color: #800000;
+    padding: 20px 0px 0px 10px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.main-container .projects .box-7{
+    width: 320px;
+    height: 320px;
+    margin: 665px 5px 5px 5px;
+    position: absolute;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+}
+.main-container .projects .box-7 img{
+    width: 319px;
+    height: 220px;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+}
+.main-container .projects .box-7{
+    background-color: #02022E;
+}
+.main-container .projects .box-7 p{
+    font-weight: bold;
+    color: #00ffff;
+    padding: 20px 0px 0px 10px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.main-container .projects .box-8{
+    width: 320px;
+    height: 320px;
+    margin: 665px 5px 5px 335px;
+    position: absolute;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+}
+.main-container .projects .box-8 img{
+    width: 319px;
+    height: 220px;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+}
+.main-container .projects .box-8{
+    background-color: #FDFDA7;
+}
+.main-container .projects .box-8 p{
+    font-weight: bold;
+    color: #FF6600;
+    padding: 20px 0px 0px 10px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.main-container .projects .box-9{
+    width: 320px;
+    height: 320px;
+    margin: 665px 5px 5px 665px;
+    position: absolute;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+}
+.main-container .projects .box-9 img{
+    width: 320px;
+    height: 220px;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+}
+.main-container .projects .box-9{
+    background-color: #ff0000;
+}
+.main-container .projects .box-9 p{
+    font-weight: bold;
+    color: #fff;
+    padding: 20px 0px 0px 10px;
+    line-height: 30px;
+    font-size: 20px;
+}
+.main-container .heading2{
+    width: 990px;
+    height: 100px;
+    box-shadow: inset 0 0 80px #111111;
+    background: linear-gradient(#808080, #000);
+    position: absolute;
+    margin-top: 2290px;
+}
+.main-container .heading2 h1{
+    color: #fff;
+    text-align: center;
+    line-height: 130px;
+}
+.main-container .contact{
+    width: 990px;
+    height: 660px;
+    position: absolute;
+    margin-top: 2400px;
+    background: linear-gradient(#808080, #fff);
+}
+.main-container .contact div{
+    width: 400px;
+    height: 600px;
+    padding: 10px;
+    background: linear-gradient(#fff, #808080);
+    box-shadow: 2px 2px 5px #141414;
+    margin: 30px auto 0px auto;
+}
+.main-container .contact div p{
+    text-align: center;
+    font-weight: bold;
+    margin: 5px 0px 30px 0px;
+}
+.main-container .contact div fieldset{
+    border: none;
+}
+.main-container .contact div fieldset label{
+    font-weight: bold;
+    font-size: 20px;
+}
+.main-container .contact div fieldset input{
+    padding: 8px;
+    margin: 10px 0px 0px 10px;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 8px #00000080;
+    width: 360px;
+    outline: none;
+}
+.main-container .contact div fieldset textarea{
+    border-radius: 8px;
+    outline: none;
+    padding: 8px;
+    margin: 10px 0px 0px 10px;
+    box-shadow: inset 0px 0px 8px #00000080;
+}
+.main-container .contact div fieldset button{
+    width: 180px;
+    height: 35px;
+    margin: 50px 0px 0px 185px;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    background: linear-gradient(#000, #808080);
+}
+.main-container .bottom{
+    width: 990px;
+    height: 90px;
+    position: absolute;
+    margin-top: 3070px;
+    background-color: #000;
+}
+.main-container .bottom p{
+    color: #fff;
+    padding: 10px;
+    font-size: 13px;
+}
+.main-container .bottom img{
+    width: 50px;
+    height: 50px;
+    margin-left: 900px;
+}
